@@ -6,30 +6,30 @@ echo ""
 
 export PS1="/\W  $ "
 
-# chdir
+#chdir
 alias ..="cd .."
 alias cd..="cd .."
 alias cdd="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias d="cd ~/Desktop" # Jump to Desktop folder
-alias p="cd ~/Projects" # Jump to Project folder
+alias d="cd ~/Desktop" #Jump to Desktop folder
+alias p="cd ~/Projects" #Jump to Project folder
 
-# ls for mac
-alias ll='ls -l'
-alias la='ls -al'          # list including hidden files
-alias lx='ls -lhBX'        #sort by extension
-alias lz='ls -lhrS'        #sort by size
-alias lt='ls -lhrt'        #sort by date 
+#ls for mac
+alias ll='ls -l'          #list files in long format
+alias la='ls -al'         #show even hidden files
+alias lx='ls -lhBX'       #sort by extension
+alias lz='ls -lhrS'       #sort by size
+alias lt='ls -lhrt'       #sort by date 
 
-# editor
+#editor
 alias edit='vim'
 alias vi='vim'
 
 alias c='clear'
 alias cls='clear'
 
-# edit bash_profile
-alias bp="nano ~/.bash_profile"
+#edit bash_profile
+alias bp="vim ~/.bash_profile"
 alias bps="source ~/.bash_profile"
