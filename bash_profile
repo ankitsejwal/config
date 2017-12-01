@@ -23,6 +23,13 @@ alias lx='ls -lhBX'        #sort by extension
 alias lz='ls -lhrS'        #sort by size
 alias lt='ls -lhrt'        #sort by date 
 
+# editor
+alias edit='vim'
+alias vi='vim'
+
+alias c='clear'
+alias cls='clear'
+
 # edit bash_profile
 alias bp="nano ~/.bash_profile"
 alias bps="source ~/.bash_profile"
