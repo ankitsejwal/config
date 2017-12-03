@@ -13,8 +13,8 @@ alias cdd="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias d="cd ~/Desktop" #Jump to Desktop folder
-alias p="cd ~/Projects" #Jump to Project folder
+alias d="cd ~/Desktop"      #Jump to Desktop folder
+alias p="cd ~/Projects"     #Jump to Project folder
 
 #ls for mac
 alias ll='ls -l'            #list files in long format
